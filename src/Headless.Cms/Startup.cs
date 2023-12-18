@@ -147,11 +147,11 @@ namespace HeadlessCms
             #endregion
 
             #region Optimizely: ContentGraph - GraphQL Service
-            // Add ContentGraph - GraphQL Service
-            services.AddContentGraph(_configuration, OpenIDConnectOptionsDefaults.AuthenticationScheme, opts =>
-            {
-                opts.ContentVersionSyncMode = Optimizely.ContentGraph.Cms.Configuration.ContentVersionSyncMode.All;
-            });
+            //// Add ContentGraph - GraphQL Service
+            //services.AddContentGraph(_configuration, OpenIDConnectOptionsDefaults.AuthenticationScheme, opts =>
+            //{
+            //    opts.ContentVersionSyncMode = Optimizely.ContentGraph.Cms.Configuration.ContentVersionSyncMode.All;
+            //});
             #endregion
 
             #region Optimizely Labs: Content Manager / Grid view / Out-of-context editing / etc..

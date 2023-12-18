@@ -4,20 +4,20 @@
     "net6.0": {
       "EPiServer.ContentDeliveryApi.Cms": {
         "type": "Direct",
-        "requested": "[3.*, )",
-        "resolved": "3.8.1",
-        "contentHash": "484/xAf/UpEhFxLUcwMcBFjtj75omzl1k/V2yHQ0jFw2XTRoprAoJlerz0IKim4gzktROq7IuW9ne71R7QjcLA==",
+        "requested": "[3.9.2, )",
+        "resolved": "3.9.2",
+        "contentHash": "08HWNn+8rOxx4KTcRmE6qMkoVOZW/ffbXH8gawYbunFDrd4poictk8CBxcXoRef+LUtXESc9hP9xf+GEuoJRuw==",
         "dependencies": {
-          "EPiServer.ContentDeliveryApi.Core": "[3.8.1]"
+          "EPiServer.ContentDeliveryApi.Core": "[3.9.2]"
         }
       },
       "EPiServer.ContentDeliveryApi.Search": {
         "type": "Direct",
         "requested": "[3.*, )",
-        "resolved": "3.8.1",
-        "contentHash": "7IhNWXN1jD8lYvlRpmsGTcZNOZksMC3nFmZVGtZi3HxVyDIvygYJjJFr7chRzgQopn1bmel7htXJyJ70EtwH5A==",
+        "resolved": "3.9.2",
+        "contentHash": "PrpcnoSqXDSiy8vtgRH0j9CEJM7iHuetaaokt/b2iz/8p4oa9LS1kMfAlWfJzrJGYipP0MMyA88BNlkWbEibmQ==",
         "dependencies": {
-          "EPiServer.ContentDeliveryApi.Core": "[3.8.1, 4.0.0)",
+          "EPiServer.ContentDeliveryApi.Core": "[3.9.2, 4.0.0)",
           "EPiServer.Find.Cms": "[14.2.4, 15.0.0)",
           "Microsoft.AspNetCore.OData": "[8.0.8, 9.0.0)"
         }
@@ -168,8 +168,8 @@
       },
       "EPiServer.ContentDeliveryApi.Core": {
         "type": "Transitive",
-        "resolved": "3.8.1",
-        "contentHash": "lEqQ2Gj+VsOlshwZDq5sQ+2/c1Kzmp48IFsslQUVrfUhAeF4nQ4U/FFfmtItnYTzSziwmXEz4dq3nKwCrrtOyg==",
+        "resolved": "3.9.2",
+        "contentHash": "CACtCG5c4mWqbbwz9ox8wKkgdGkcGl0aX3miLCxCkas2ZQi+iNT/hSpikFQVuSjv4zjdhQl8QV5J2qu8j54XKQ==",
         "dependencies": {
           "EPiServer.CMS.UI.Core": "[12.17.0, 13.0.0)",
           "EPiServer.Cms.AspNetCore.HtmlHelpers": "[12.14.0, 13.0.0)"

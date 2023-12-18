@@ -23,7 +23,7 @@
 		<Using Include="EPiServer.DataAnnotations" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageReference Include="EPiServer.ContentDeliveryApi.Cms" Version="3.*" />
+		<PackageReference Include="EPiServer.ContentDeliveryApi.Cms" Version="3.9.2" />
 		<PackageReference Include="EPiServer.ContentDeliveryApi.Search" Version="3.*" />
 		<PackageReference Include="EPiServer.Find.Cms" Version="14.*">
 			<ExcludeAssets>contentFiles</ExcludeAssets>

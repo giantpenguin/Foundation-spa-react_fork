@@ -17,7 +17,7 @@
     <!-- Forced version to resolve conflict -->
     <PackageReference Include="EPiServer.Framework" Version="12.*" />
     <PackageReference Include="EPiServer.CMS.AspNetCore" Version="12.*" />
-    <PackageReference Include="EPiServer.CMS.AspNetCore.HtmlHelpers" Version="12.16.0" />
+    <PackageReference Include="EPiServer.CMS.AspNetCore.HtmlHelpers" Version="12.20.0" />
     <PackageReference Include="EPiServer.CMS.AspNetCore.Mvc" Version="12.*" />
     <PackageReference Include="EPiServer.CMS.AspNetCore.Routing" Version="12.*" />
     <PackageReference Include="EPiServer.CMS.AspNetCore.Templating" Version="12.*" />

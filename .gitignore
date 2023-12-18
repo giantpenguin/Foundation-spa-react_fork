@@ -5,3 +5,5 @@ pub/*/
 tools/*.local.config*
 *.old
 FolderProfile.*.pubxml*
+*.user
+modules/_protected

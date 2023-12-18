@@ -16,7 +16,7 @@ const nextConfig = withBundleAnalyzer(withOptimizelyConfig({
     cleanDistDir: true,
     images: {
         formats: ['image/avif', 'image/webp'],
-        domains: ['localhost']
+        domains: ['foundationheadless.front', 'foundationhead.cms','localhost']
     },
     compiler: {
       styledComponents: {
