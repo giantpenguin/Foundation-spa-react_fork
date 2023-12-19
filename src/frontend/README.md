@@ -35,6 +35,7 @@ Documentation on how to perform this configuration can be found at: https://yarn
 
 ### 2.3. Step 3: Configure environment
 Configure the environment, by creating a `.env.local` file in the frontend root folder, with the following contents:
+Note: the OPTIMIZELY_DXP_URL must end with slash /
 
 ```env
 # Optimizely Content Cloud
