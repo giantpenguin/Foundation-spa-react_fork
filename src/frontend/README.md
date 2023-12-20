@@ -36,7 +36,7 @@ Documentation on how to perform this configuration can be found at: https://yarn
 ### 2.3. Step 3: Configure environment
 Configure the environment, by creating a `.env.local` file in the frontend root folder, with the following contents:
 
-Note: the OPTIMIZELY_DXP_URL must end with slash /
+**Note: the OPTIMIZELY_DXP_URL must end with a slash /**
 
 ```env
 # Optimizely Content Cloud
@@ -69,20 +69,19 @@ Environment variables used by included libraries:
 - NextAuth.js: [https://next-auth.js.org/configuration/options](https://next-auth.js.org/configuration/options#environment-variables)
 
 ### 2.4. Step 4: Connect to content cloud & synchronize
-Check connectivity with Content Cloud and list the currently avaialble
-websites, by using the included CLI tool: 
+Check connectivity with Content Cloud and list the currently avaialble websites, by using the included CLI tool: 
 ```bash
 yarn opti-cms website list
 ```
-Take the ID of the website and use that to update the value of `OPTIMIZELY_DXP_SITE_ID`
-to ensure the build will succeed.
+This will access the CMS api endpoint at **[OPTIMIZELY_DXP_URL]api/episerver/v3.0/site/**
 
-To update the bindings to the website, so available languages and settings
-will be correctly reflected in the website. This is done using the included CLI
-tool: 
+Take the ID of the website and use that to update the value of `OPTIMIZELY_DXP_SITE_ID` to ensure the build will succeed.
+
+To update the bindings to the website, so available languages and settings will be correctly reflected in the website. This is done using the included CLI tool: 
 ```bash
 yarn opti-cms website export
 ```
+This 'yarn opti-cms website export' command will write json data to **website.cjs** file with information returned from the call to the CMS api endpoint at **[OPTIMIZELY_DXP_URL]api/episerver/v3.0/site/[OPTIMIZELY_DXP_SITE_ID]**
 
 Finally, run the development server:
 
@@ -91,6 +90,7 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
 
 ## 3. Synchronizing schema
 The fronted comes with an utility to generate TypeScript definitions of the content types defined within Optimizely Content Cloud. To run the synchronization and generate the `schema.d.ts` and `schema.json` files.
